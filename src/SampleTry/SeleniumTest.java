@@ -29,12 +29,22 @@ public class SeleniumTest {
         keyword.sendKeys(Keys.ENTER);
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-
-       driver.findElement(By.xpath("//*[@id='rso']/div[1]/div/div/div/div[1]/div/div/span/a/div/div/div/cite")).click();
+        //driver.findElement(By.cssSelector(".DKV0Md")).click();
+        driver.findElement(By.cssSelector("#rso > div:nth-child(3) > div > div > div.kb0PBd.cvP2Ce.jGGQ5e > div > div > span > a > h3")).click();
 
        System.out.println("User redirected to " + driver.getCurrentUrl() );
 
-      driver.quit();
+        String expectedTitle = "Selenium";
+        String actualTitle = driver.getTitle();
+
+        if (actualTitle.contentEquals(expectedTitle)){
+
+            System.out.println("Test Passed");
+        } else {
+            System.out.println("Test Failed");
+        }
+
+        driver.close();
 
     }
 }
