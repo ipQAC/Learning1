@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecec419c-0da9-45ac-bdd6-6618e051d9eb" name="Changes" comment="">
+    <list default="true" id="ecec419c-0da9-45ac-bdd6-6618e051d9eb" name="Changes" comment="Verified page title">
       <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learning 1/SampleTry/SeleniumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learning 1/SampleTry/SeleniumTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SampleTry/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SampleTry/SeleniumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +40,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -101,6 +102,15 @@
       <option name="presentableId" value="Default" />
       <updated>1697061556786</updated>
     </task>
+    <task id="LOCAL-00001" summary="Verified page title">
+      <option name="closed" value="true" />
+      <created>1701795960023</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701795960023</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +171,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Verified page title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Verified page title" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -171,7 +185,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/SampleTry/SeleniumTest.java</url>
-          <line>14</line>
+          <line>11</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
